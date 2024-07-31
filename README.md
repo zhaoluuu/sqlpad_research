@@ -1,6 +1,8 @@
 # SQLPad_Research
 
-学习研究SQLPad，Pad是一款用于编写和运行 SQL 查询并将结果可视化的网络应用程序。
+学习研究SQLPad。
+
+SQLPad是一款用于编写和运行 SQL 查询并将结果可视化的网络应用程序。
 
 通过 [ODBC](https://github.com/sqlpad/sqlpad/wiki/ODBC)，支持 Postgres、MySQL、SQL Server、ClickHouse、Crate、Vertica、Trino、Presto、SAP HANA、Cassandra、Google BigQuery、SQLite、TiDB 等。
 
@@ -20,6 +22,3 @@ Documentation located at [https://getsqlpad.com](https://getsqlpad.com).
 
 For instructions on installing/running SQLPad from git repo see [DEVELOPER-GUIDE.md](https://github.com/sqlpad/sqlpad/blob/master/DEVELOPER-GUIDE.md)
 
-## License
-
-MIT
