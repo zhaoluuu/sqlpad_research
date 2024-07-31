@@ -1,22 +1,16 @@
-# SQLPad
+# SQLPad_Research
 
-A web app for writing and running SQL queries and visualizing the results. Supports Postgres, MySQL, SQL Server, ClickHouse, Crate, Vertica, Trino, Presto, SAP HANA, Cassandra, Google BigQuery, SQLite, TiDB and many more via [ODBC](https://github.com/sqlpad/sqlpad/wiki/ODBC).
+学习研究SQLPad，Pad是一款用于编写和运行 SQL 查询并将结果可视化的网络应用程序。
+
+通过 [ODBC](https://github.com/sqlpad/sqlpad/wiki/ODBC)，支持 Postgres、MySQL、SQL Server、ClickHouse、Crate、Vertica、Trino、Presto、SAP HANA、Cassandra、Google BigQuery、SQLite、TiDB 等。
 
 ![SQLPad Query Editor](https://user-images.githubusercontent.com/303966/99915755-32f78e80-2ccb-11eb-9f74-b18846d6108d.png)
 
-## Project Status
-
-SQLPad is a legacy project in maintenance mode. If evaluating SQLPad, please consider a [potential alternative](https://getsqlpad.com/en/introduction/#alternatives) or forking the project and making it your own.
-
-Maintenance releases for security and dependency updates will continue as possible.
-
-**As of version 7, semver is no longer followed**. Going forward patch updates may require major Node.js version updates, or contain removal of functionality.
-
 ## Docker Image
 
-The docker image runs on port 3000 and uses `/var/lib/sqlpad` for the embedded database directory.
 
-See [docker-examples](https://github.com/sqlpad/sqlpad/tree/master/docker-examples) for docker-compose examples.
+docker 映像在端口 3000 上运行，并使用`/var/lib/sqlpad`作为嵌入式数据库目录。
+有关 docker-compose 的示例，请参见 docker-[examples](https://github.com/sqlpad/sqlpad/tree/master/docker-examples)。
 
 ## Project Documentation
 
